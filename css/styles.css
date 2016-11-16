@@ -1,0 +1,57 @@
+body {
+ 
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #999999;
+  border-radius: 0;
+  border: 3px solid black;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 { /* Name */
+  color: black;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  background-color: #f7f7f7;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#nav-list a {
+  color: black;
+  font-size: 1.2em;
+  text-align: center;
+  border: 1px solid black;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#collapsable-nav {
+	border: 0;
+}
+
+.menu-item-description {
+  background:  #E7E7E7;
+  height: 1000px;
+}
+
+.menu-item-description p {
+  margin: 20px 10px 0 10px;
+}
+
+#menu-item-title {
+	padding-top: 10px;
+}
