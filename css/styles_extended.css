@@ -43,14 +43,22 @@ body {
 	border: 0;
 }
 
-.menu-item-description {
-  background:  #E7E7E7;
-  height: 1000px;
-}
-
-.menu-item-description p {
-  margin: 20px 10px 0 10px;
+.menu-item {
+  background:  #999999;
+  min-height: 850px;
+  padding: 15px;
 }
 
 #menu-item-title {
-	padding-top: 1
+	padding-top: 10px;
+}
+
+.menu-item a {
+ display: block;
+ color: black;
+}
+
+.menu-item a:hover, .menu-item a:focus {
+  text-decoration: none;
+  color: gray;
+}
